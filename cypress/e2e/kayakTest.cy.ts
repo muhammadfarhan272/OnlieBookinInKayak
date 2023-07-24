@@ -11,6 +11,7 @@ describe('Travel booking with kayak', () => {
   const dateDetail = departureDetail.getDatePicker();
   const passengersDetail = departureDetail.getPassengerDetail();
   it('should navigate to forms dashboard page', () => {
+    
     FlightDetail.clearSearchField();
     FlightDetail.selectAndTypeOnSearchField(FlightLocation.FROM,AirportName.DEPARTURE)
     FlightDetail.clickOnDropdownSearch();
